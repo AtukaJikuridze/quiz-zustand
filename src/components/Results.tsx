@@ -19,8 +19,8 @@ const Results = () => {
   }, [isFinished, navigate]);
 
   const handleRetry = () => {
-    setQuizIdDefault(); // Reset count
-    setAnswersDefault(); // Reset answers & isFinished
+    setQuizIdDefault(); 
+    setAnswersDefault(); 
     navigate("/");
   };
 
